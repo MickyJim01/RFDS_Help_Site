@@ -49,6 +49,7 @@ ul.navbar {
 li.link a {
   display: block;
   color: var(--text-light);
+  background-color: var(--dark-blue);
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
