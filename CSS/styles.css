@@ -1,20 +1,23 @@
 :root {
-  --dark-blue: #3b4069;
-  --lighter-blue: #444872;
-  --text-light: #f0f3eb;
-  --sandy: #ece0d5;
-  --accent-orange: #ff593e;
-  --level-1: #8dccad;
-  --level-2: #f5cc7f;
-  --level-3: #7b9fe0;
-  --level-4: #f27c8d;
+    --dark-blue: #3b4069;
+    --lighter-blue: #444872;
+    --text-light: #f0f3eb;
+    --sandy: #ece0d5;
+    --accent-orange: #ff593e;
+    --level-1: #8dccad;
+    --level-2: #f5cc7f;
+    --level-3: #7b9fe0;
+    --level-4: #f27c8d;
 }
 
 * {
-  margin: 0;
-  padding: 0;
-  font-family: "Inter", sans-serif;
-  background-color: var(--sandy);
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", sans-serif;
+}
+
+body {
+    background-color: var(--sandy);
 }
 
 h1,
@@ -23,58 +26,55 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: Georgia, serif;
+    font-family: Georgia, serif;
 }
 
 table,
 th,
 td {
-  border: 1px solid black;
-  border-collapse: collapse;
-  padding: 5px;
-  margin: 10px;
-}
-nav {
-  background-color: var(--dark-blue);
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 5px;
+    margin: 10px;
 }
 
 ul.navbar {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: var(--dark-blue);
-  display: flex;
-  justify-content: space-around;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: var(--dark-blue);
+    display: flex;
+    justify-content: space-around;
 }
 
 li.link a {
-  display: block;
-  color: var(--text-light);
-  background-color: var(--dark-blue);
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  border-radius: 8px;
-  border: 2px solid var(--dark-blue);
-  margin: 5px;
-  transition: 0.1s;
+    display: block;
+    color: var(--text-light);
+    background-color: var(--dark-blue);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    border-radius: 8px;
+    border: 2px solid var(--dark-blue);
+    margin: 5px;
+    transition: 0.1s;
 }
 
 li.link a:hover {
-  background-color: var(--lighter-blue);
-  border: 2px solid var(--sandy);
-  translate: 0 -2px;
-  transition: 0.2s;
+    background-color: var(--lighter-blue);
+    border: 2px solid var(--sandy);
+    translate: 0 -2px;
+    transition: 0.2s;
 }
 
 #faq a {
-  background-color: var(--accent-orange);
-  color: var(--text-light);
+    background-color: var(--accent-orange);
+    color: var(--text-light);
 }
 
 #welcome {
-  text-align: center;
-  margin: 20px;
-  color: var(--dark-blue);
+    text-align: center;
+    margin: 20px;
+    color: var(--dark-blue);
 }
