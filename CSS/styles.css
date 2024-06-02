@@ -14,6 +14,7 @@
     margin: 0;
     padding: 0;
     font-family: "Inter", sans-serif;
+    box-sizing: border-box;
 }
 
 body {
@@ -40,6 +41,10 @@ td {
     border-collapse: collapse;
     padding: 5px;
     margin: 10px;
+}
+
+a {
+    text-decoration: none;
 }
 
 ul.navbar {
@@ -70,6 +75,30 @@ li.link a:hover {
     border: 2px solid var(--sandy);
     translate: 0 -2px;
     transition: 0.2s;
+}
+
+ul#learnMore {
+    display: flex;
+    justify-content: space-around;
+    border: 2px solid black;
+    margin-inline: 20%;
+}
+
+#learnMore li{
+    list-style: none;
+    text-decoration: none;
+    padding-inline: 1.2rem;
+    padding-block: 0.8rem;
+    border: 2x solid var(--lighter-blue);
+    border-radius: 15px;
+    background-color: var(--accent-orange);
+    color: var(--text-light);
+
+    & a {
+        text-decoration: none;
+        color: inherit;
+    }
+    
 }
 
 #faq a {
