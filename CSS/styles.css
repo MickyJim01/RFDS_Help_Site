@@ -20,6 +20,10 @@ body {
     background-color: var(--sandy);
 }
 
+main {
+    padding: 3rem;
+}
+
 h1,
 h2,
 h3,
