@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+
 :root {
     --dark-blue: #3b4069;
     --lighter-blue: #444872;
@@ -34,17 +36,13 @@ h6 {
     font-family: Georgia, serif;
 }
 
-table,
-th,
-td {
-    border: 1px solid black;
-    border-collapse: collapse;
-    padding: 5px;
-    margin: 10px;
-}
-
 a {
     text-decoration: none;
+    color: inherit;
+}
+
+li {
+    list-style: none;
 }
 
 ul.navbar {
@@ -55,9 +53,10 @@ ul.navbar {
     background-color: var(--dark-blue);
     display: flex;
     justify-content: space-around;
+    font-size: 1.5rem;
 }
 
-li.link a {
+li.link > a {
     display: block;
     color: var(--text-light);
     background-color: var(--dark-blue);
@@ -70,7 +69,7 @@ li.link a {
     transition: 0.1s;
 }
 
-li.link a:hover {
+li.link > a:hover {
     background-color: var(--lighter-blue);
     border: 2px solid var(--sandy);
     translate: 0 -2px;
@@ -80,11 +79,11 @@ li.link a:hover {
 ul#learnMore {
     display: flex;
     justify-content: space-around;
-    border: 2px solid black;
     margin-inline: 20%;
+    margin-block: 10px;
 }
 
-#learnMore li{
+#learnMore li {
     list-style: none;
     text-decoration: none;
     padding-inline: 1.2rem;
@@ -93,12 +92,19 @@ ul#learnMore {
     border-radius: 15px;
     background-color: var(--accent-orange);
     color: var(--text-light);
+    transition: 0.2s;
 
     & a {
         text-decoration: none;
         color: inherit;
     }
-    
+
+    &:hover {
+        background-color: var(--level-2);
+        transition: 0.3s;
+        cursor: pointer;
+        translate: 0 -2px;
+    }
 }
 
 #faq a {
@@ -110,4 +116,34 @@ ul#learnMore {
     text-align: center;
     margin: 20px;
     color: var(--dark-blue);
+}
+
+/* NAVBAR DROP DOWNS */
+
+.ms_drop {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    background-color: var(--lighter-blue);
+    color: var(--text-light);
+    border-radius: 0 0 15px 15px;
+
+    & ul {
+        /* margin: 0.5rem; */
+
+        & li {
+            padding: 0.4rem;
+            margin: 0.5rem;
+            transition: 0.2s;
+        }
+        & :hover {
+            background-color: var(--dark-blue);
+            translate: 0.4rem 0;
+            transition: 0.3s;
+        }
+    }
+}
+
+.show {
+    display: block;
 }
