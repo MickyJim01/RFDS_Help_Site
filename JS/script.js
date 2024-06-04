@@ -1,8 +1,16 @@
-const button = document.getElementById("ms_access");
-const dropdown = document.getElementById("drop_msaccess");
+const ms_button = document.getElementById("ms_access");
+const ms_dropdown = document.getElementById("drop_msaccess");
+const re_button = document.getElementById("re_express");
+const re_dropdown = document.getElementById("re_drop");
 
-button.addEventListener("click", function () {
-    dropdown.classList.toggle("show");
+// when MS button is clicked, MS drop down appears
+ms_button.addEventListener("click", function () {
+    ms_dropdown.classList.toggle("show");
+});
+
+// When RE button is clicked, RE dropdown appears
+re_button.addEventListener("click", function () {
+    re_dropdown.classList.toggle("show");
 });
 
 // maybe will be able to change so that if you click outside the menu then the drop down will close
