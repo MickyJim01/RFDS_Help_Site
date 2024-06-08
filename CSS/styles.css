@@ -197,7 +197,7 @@ section.intro {
   flex-direction: column;
 }
 
-.cards-container {
+section.cards-container {
   display: grid;
   gap: 1rem;
   grid-template-columns: repeat(2, 1fr);
@@ -240,4 +240,8 @@ div.card {
   justify-content: space-evenly;
   align-items: center;
   padding: 2rem;
+}
+
+#screenshot {
+  align-self: center;
 }
