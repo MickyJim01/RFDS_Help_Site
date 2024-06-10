@@ -87,15 +87,15 @@ ul.navbar li.link {
 }
 
 li.link::after {
-    content: "";
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    height: 0%;
-    width: 100%;
-    background: var(--accent-orange);
-    transition: 0.3s;
-  }
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 0%;
+  width: 100%;
+  background: var(--accent-orange);
+  transition: 0.3s;
+}
 
 /* Styles the look of the button */
 ul.navbar li.link > a {
@@ -238,17 +238,16 @@ div.card {
     margin-bottom: 0.5rem;
     width: fit-content;
   }
-    /* Styling the line that comes in on hover */
-    &::after {
-      content: "";
-      position: absolute;
-      bottom: 0;
-      left: 0;
-      height: 2px;
-      width: 0%;
-      background: var(--accent-orange);
-      transition: width 0.2s;
-    }
+  /* Styling the line that comes in on hover */
+  &::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 2px;
+    width: 0%;
+    background: var(--accent-orange);
+    transition: width 0.2s;
   }
 
   /* Style actions on hover */
