@@ -1,0 +1,221 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+
+:root {
+    --light: #f0f0f0;
+    --dark: #303030;
+    --metal: #e0e0e0;
+    --light-grey: #d8dce2;
+    --dark-grey: #adaeb1;
+    --accent-orange: #ff593e;
+    --level-1: #8dccad;
+    --level-2: #f5cc7f;
+    --level-3: #7b9fe0;
+    --level-4: #f27c8d;
+    --fw-reg: 500;
+    --fw-semibold: 600;
+    --fw-bold: 700;
+    --fs-reg: 1rem;
+    --fs-lrg: 1.5rem;
+    --fs-head: 2rem;
+    --fs-massive: 3rem;
+    --shadow: 0px 5px 3px var(--dark-grey);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", sans-serif;
+    box-sizing: border-box;
+    color: var(--dark);
+}
+
+body {
+    background-color: var(--light);
+    color: var(--dark);
+}
+
+main {
+    padding-inline: 20rem;
+    padding-block: 3rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: Georgia, serif;
+    color: var(--dark);
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+li {
+    list-style: none;
+}
+
+/* NAVBAR */
+
+/* Navbar styling */
+ul.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0;
+    padding-inline: 40px;
+    overflow: visible;
+    background-color: var(--light-grey);
+    box-shadow: 0 5px 3px var(--dark-grey);
+    font-size: var(--fs-lrg);
+    font-weight: var(--fw-semibold);
+}
+
+.logo {
+    height: 100px;
+}
+
+/* Button Container */
+ul.navbar li.link {
+    display: inline-block;
+    position: relative;
+    flex: 1;
+    z-index: 1;
+
+    > a::after {
+        content: "";
+        position: absolute;
+        bottom: 20%;
+        left: 20%;
+        height: 2px;
+        width: 0%;
+        background: var(--accent-orange);
+        transition: ease-out 0.3s;
+    }
+
+    > a:hover::after {
+        width: 60%;
+        animation: fade-nin 0.3s;
+        animation-fill-mode: forwards;
+    }
+}
+
+/* Styles the look of the button */
+ul.navbar li.link > a {
+    display: block;
+    margin-inline: 5px;
+    padding: 14px 16px;
+    text-align: center;
+    text-decoration: none;
+    color: var(--dark);
+    border-radius: 8px;
+    transition: 0.1s;
+}
+
+/* Changes the style of the button when hovered */
+ul.navbar li.link > a:hover {
+    background-color: var(--light-grey);
+    translate: 0 -2px;
+    transition: 0.2s;
+}
+
+/* Shows the dropdown content when hoveing the button */
+ul.navbar li.link:hover .drop_content {
+    display: block;
+    transition: 0.3s;
+    animation: fade-in 0.3s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fade-in {
+    0% {
+        opacity: 0%;
+    }
+    100% {
+        opacity: 100%;
+    }
+}
+
+/* changes the style of the button when the button */
+/* is being hovered and the dropdown content is shown */
+/* only if the button has a div inside with class drop_content */
+ul.navbar li.link:has(div.drop_content):hover > a {
+    background-color: var(--light-grey);
+    translate: 0 -2px;
+    /* border-radius: 8px 8px 0 0; */
+
+    &::after {
+        width: 60%;
+    }
+}
+
+/* Styles the little lines separators in between nav links */
+span.nav_divider::before {
+    content: "";
+    border: 1px solid var(--dark-grey);
+}
+
+/* NAVBAR DROP DOWNS */
+
+/* Dropdown content container styling */
+div.drop_content {
+    display: none;
+    opacity: 0%;
+    position: absolute;
+    /* bottom: 0%; */
+    width: calc(100% - 30px);
+    margin-left: 15px;
+    translate: 0 -2px;
+    z-index: 3;
+    box-shadow: var(--shadow);
+    background-color: var(--light-grey);
+    color: var(--dark);
+    border-radius: 0 0 15px 15px;
+}
+
+/* Styles the links in the dropdown content */
+div.drop_content ul li a {
+    display: block;
+    padding: 0.6rem;
+
+    &::after {
+        content: "";
+        position: absolute;
+        opacity: 0%;
+        height: 1rem;
+        width: 1rem;
+        right: 1.5rem;
+        margin-top: 0.3rem;
+        border-top: 3px solid var(--accent-orange);
+        border-right: 3px solid var(--accent-orange);
+        border-radius: 10%;
+        transform: rotate(45deg);
+    }
+}
+
+/* Styles dropdown links hover styles */
+div.drop_content ul li a:hover {
+    transition: 0.2s;
+    text-shadow: 0px 1px 1px var(--accent-orange);
+    &::after {
+        animation: fade-in 0.2s;
+        animation-fill-mode: forwards;
+    }
+}
+
+/* Chnages the shape of the last link in the dropdown to have a curved bottom */
+div.drop_content ul li:last-of-type a {
+    border-radius: 0 0 15px 15px;
+}
+
+.footer {
+    background-color: var(--dark);
+    color: var(--light);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 2rem;
+}
