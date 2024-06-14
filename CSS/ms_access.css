@@ -1,0 +1,40 @@
+@import url(./declarations.module.css);
+
+main {
+    padding-right: 3rem;
+}
+
+.ms_main_container {
+    display: flex;
+    flex-direction: row;
+}
+
+.ms_article {
+    flex: 3;
+    background-color: aliceblue;
+}
+
+.ms_contents {
+    flex: 1;
+    min-height: 80vh;
+    background-color: var(--metal);
+    padding: 1rem;
+    border-radius: 5%;
+    font-weight: var(--fw-semibold);
+    font-size: var(--fs-lrg);
+}
+
+/* || UTILITY */
+.indent {
+    padding-left: 2rem;
+}
+
+.centre {
+    text-align: center;
+}
+
+/* || HOVERSTYLES */
+.bookmark a:hover,
+.sub_bookmarks a:hover {
+    text-decoration: underline solid var(--accent-orange);
+}
