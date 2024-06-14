@@ -12,3 +12,10 @@ It contains information for:
   - End of Day
   - Reporting for EOM
 - Other miscellaneous information which may be of some value to know
+
+
+## IDEAS
+- inlcude videos for processes such as selling combo tickets
+- include links and downloads for roster print offs and other important documents
+- detailed instructions on how to make and edit a report in MS access.
+- what to do if ms access becomes corrupted
