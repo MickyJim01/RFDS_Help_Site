@@ -9,7 +9,7 @@
 }
 
 body {
-    background-color: var(--light);
+    background-color: var(--white);
     color: var(--dark);
 }
 
@@ -20,8 +20,8 @@ main {
 
 p {
     font-weight: var(--fw-reg);
-    line-height: 1.2;
-    margin: 1rem;
+    line-height: 1.6;
+    margin-block: 1rem;
 }
 
 h1,
@@ -30,7 +30,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Georgia, "Times New Roman", Times, serif;
     color: var(--dark);
 }
 

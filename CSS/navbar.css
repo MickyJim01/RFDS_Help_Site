@@ -10,8 +10,8 @@ ul.navbar {
     margin: 0;
     padding-inline: 40px;
     overflow: visible;
-    background-color: var(--light-grey);
-    box-shadow: 0 5px 3px var(--dark-grey);
+    background-color: var(--white);
+    /* box-shadow: 0 5px 3px var(--dark-grey); */
     font-size: var(--fs-lrg);
     font-weight: var(--fw-semibold);
 }
@@ -40,7 +40,7 @@ ul.navbar li.link {
 
     > a:hover::after {
         width: 60%;
-        animation: fade-nin 0.3s;
+        animation: fade-in 0.3s;
         animation-fill-mode: forwards;
     }
 }
@@ -59,7 +59,7 @@ ul.navbar li.link > a {
 
 /* Changes the style of the button when hovered */
 ul.navbar li.link > a:hover {
-    background-color: var(--light-grey);
+    /* background-color: var(--light); */
     translate: 0 -2px;
     transition: 0.2s;
 }
@@ -68,8 +68,7 @@ ul.navbar li.link > a:hover {
 ul.navbar li.link:hover .drop_content {
     display: block;
     transition: 0.3s;
-    animation: fade-in 0.3s;
-    animation-fill-mode: forwards;
+    animation: fade-in 0.4s forwards;
 }
 
 @keyframes fade-in {
@@ -85,9 +84,8 @@ ul.navbar li.link:hover .drop_content {
 /* is being hovered and the dropdown content is shown */
 /* only if the button has a div inside with class drop_content */
 ul.navbar li.link:has(div.drop_content):hover > a {
-    background-color: var(--light-grey);
+    /* background-color: var(--light); */
     translate: 0 -2px;
-    /* border-radius: 8px 8px 0 0; */
 
     &::after {
         width: 60%;
@@ -97,7 +95,7 @@ ul.navbar li.link:has(div.drop_content):hover > a {
 /* Styles the little lines separators in between nav links */
 span.nav_divider::before {
     content: "";
-    border: 1px solid var(--dark-grey);
+    border: 1px solid var(--light);
 }
 
 /* NAVBAR DROP DOWNS */
@@ -105,17 +103,32 @@ span.nav_divider::before {
 /* Dropdown content container styling */
 div.drop_content {
     display: none;
-    opacity: 0%;
     position: absolute;
-    /* bottom: 0%; */
+    opacity: 0%;
     width: calc(100% - 30px);
     margin-left: 15px;
     translate: 0 -2px;
     z-index: 3;
     box-shadow: var(--shadow);
-    background-color: var(--light-grey);
+    background-color: var(--white);
     color: var(--dark);
-    border-radius: 0 0 15px 15px;
+    border: 2px solid var(--accent-orange);
+    border-radius: 15px;
+}
+
+/* The little triaingle at the top of the drop content */
+.drop_content::before {
+    content: "";
+    position: absolute;
+    top: -12px;
+    left: calc(50% - 15px);
+    height: 20px;
+    width: 20px;
+    border-radius: 7%;
+    border-top: 2px solid var(--accent-orange);
+    border-left: 2px solid var(--accent-orange);
+    rotate: 45deg;
+    background-color: var(--white);
 }
 
 /* Styles the links in the dropdown content */
@@ -141,10 +154,8 @@ div.drop_content ul li a {
 /* Styles dropdown links hover styles */
 div.drop_content ul li a:hover {
     transition: 0.2s;
-    /* text-shadow: 0px 1px 1px var(--accent-orange); */
     &::after {
-        animation: fade-in 0.2s;
-        animation-fill-mode: forwards;
+        animation: fade-in 0.2s forwards;
     }
 }
 
