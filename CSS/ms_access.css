@@ -24,6 +24,11 @@ main {
     font-size: var(--fs-lrg);
 }
 
+.ms_contents>*::before {
+    content: '.';
+    border: ;
+}
+
 /* || UTILITY */
 .indent {
     padding-left: 2rem;
