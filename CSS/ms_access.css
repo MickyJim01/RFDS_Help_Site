@@ -24,10 +24,10 @@ main {
     font-size: var(--fs-lrg);
 }
 
-.ms_contents>*::before {
+/* .ms_contents>*::before {
     content: '.';
     border: ;
-}
+} */
 
 /* || UTILITY */
 .indent {
