@@ -38,6 +38,10 @@ main {
     text-align: center;
 }
 
+.centre_img {
+    margin: 0 auto;
+}
+
 /* || HOVERSTYLES */
 .bookmark a:hover,
 .sub_bookmarks a:hover {
