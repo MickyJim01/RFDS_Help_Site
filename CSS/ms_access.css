@@ -12,6 +12,10 @@ main {
 .ms_article {
     flex: 3;
     background-color: aliceblue;
+
+    & h2, h3 {
+        margin-block: 1rem;
+    }
 }
 
 .ms_contents {
@@ -48,4 +52,18 @@ main {
 .bookmark a:hover,
 .sub_bookmarks a:hover {
     text-decoration: underline solid var(--accent-orange);
+}
+
+#title {
+    font-size: var(--fs-head);
+}
+
+#subtitle {
+    font-size: var(--fs-lrg);
+}
+
+span.hr {
+    border: 2px solid var(--accent-orange);
+    width: 80%;
+    margin: auto;
 }

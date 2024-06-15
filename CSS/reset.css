@@ -20,6 +20,8 @@ main {
 
 p {
     font-weight: var(--fw-reg);
+    line-height: 1.2;
+    margin: 1rem;
 }
 
 h1,
