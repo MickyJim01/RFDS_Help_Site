@@ -18,13 +18,17 @@ main {
     padding-block: 3rem;
 }
 
+p {
+    font-weight: var(--fw-reg);
+}
+
 h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
-    font-family: "Poppins", sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     color: var(--dark);
 }
 
