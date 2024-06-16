@@ -35,25 +35,68 @@ main {
 
 /* || UTILITY */
 .indent {
+    /* indents the text in the element */
     padding-left: 2rem;
 }
 
 .centre {
+    /* centres text */
     text-align: center;
 }
 
 .centre_img {
+    /* centres an image */
     display: block;
     margin: auto;
     border: 2px solid black;
 }
 
-/* Horizontal Rule */
+dl {
+    /* indents the description list */
+    margin-left: 2rem;
+}
+
+blockquote {
+    /* creates a blockquote */
+    position: relative;
+    background-color: var(--blue);
+    color: var(--light);
+    padding: 1em;
+    padding-left: 4rem;
+    border-left: 3px solid var(--dark);
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 2px 2px 2px var(--dark);
+    width: 90%;
+    min-height: 4rem;
+    margin-inline: auto;
+    margin-block: 1rem;
+}
+
+blockquote::before {
+    /* inserts space for an svg in blockquote */
+    content: "";
+    position: absolute;
+    left: 0.5rem;
+    top: 0.5rem;
+    height: 3rem;
+    width: 3rem;
+}
+
+blockquote.info::before {
+    content: url(../media/svg/info.svg);
+}
+
+blockquote.warning::before {
+    content: url(../media/svg/warning.svg);
+}
+
 span.hr {
+    /* Horizontal Rule */
     display: block;
     border: 1px solid var(--light-grey);
-    width: 80%;
-    margin: auto;
+    width: 90%;
+    margin-inline: auto;
+    margin-block: 1rem;
 }
 
 /* || HOVERSTYLES */
