@@ -59,13 +59,14 @@ dl {
 }
 
 dt {
-    list-style: circle;
+    list-style: disc inside;
 }
 
 dd {
-    list-style: disc;
+    list-style: circle inside;
     padding-inline: 1rem;
     font-weight: var(--fw-light);
+    font-size:var(--fs-sml) ;
 }
 
 
