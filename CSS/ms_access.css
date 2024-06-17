@@ -56,6 +56,7 @@ main {
 dl {
     /* indents the description list */
     margin-left: 2rem;
+    list-style: disc;
 }
 
 dt {
