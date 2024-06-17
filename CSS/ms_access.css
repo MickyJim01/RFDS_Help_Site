@@ -1,8 +1,28 @@
 @import url(./declarations.module.css);
 
+/* || UTILITY */
+.indent {
+    /* indents the text in the element */
+    padding-left: 2rem;
+}
+
+.centre {
+    /* centres text */
+    text-align: center;
+}
+
+.centre_img {
+    /* centres an image */
+    display: block;
+    margin: auto;
+    border: 2px solid black;
+}
+
+/* || STYLES */
 main {
     padding-right: 3rem;
 }
+
 
 .ms_main_container {
     display: flex;
@@ -33,28 +53,21 @@ main {
     box-shadow: 2px 2px 4px var(--light), 0px -2px 4px var(--light);
 }
 
-/* || UTILITY */
-.indent {
-    /* indents the text in the element */
-    padding-left: 2rem;
-}
-
-.centre {
-    /* centres text */
-    text-align: center;
-}
-
-.centre_img {
-    /* centres an image */
-    display: block;
-    margin: auto;
-    border: 2px solid black;
-}
-
 dl {
     /* indents the description list */
     margin-left: 2rem;
 }
+
+dt {
+    list-style: circle;
+}
+
+dd {
+    list-style: disc;
+    padding-inline: 1rem;
+    font-weight: var(--fw-light);
+}
+
 
 blockquote {
     /* creates a blockquote */
