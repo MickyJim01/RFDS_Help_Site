@@ -23,7 +23,6 @@ main {
     padding-right: 3rem;
 }
 
-
 .ms_main_container {
     display: flex;
     flex-direction: row;
@@ -34,8 +33,11 @@ main {
     box-shadow: 0px 2px 4px var(--light), -2px -2px 4px var(--light);
     padding: 1rem;
     & h2,
-    h3 {
+    h3,
+    p,
+    dl {
         margin-block: 1rem;
+        margin-left: 5%;
     }
 }
 
@@ -56,20 +58,18 @@ main {
 dl {
     /* indents the description list */
     margin-left: 2rem;
-    list-style: disc;
 }
 
 dt {
-    list-style: disc inside;
+    display: list-item;
+    list-style: disc outside;
 }
 
 dd {
-    list-style: circle inside;
     padding-inline: 1rem;
     font-weight: var(--fw-light);
-    font-size:var(--fs-sml) ;
+    font-size: var(--fs-sml);
 }
-
 
 blockquote {
     /* creates a blockquote */

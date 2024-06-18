@@ -23,7 +23,6 @@ dt,
 dd {
     font-weight: var(--fw-reg);
     line-height: 1.6;
-    /* margin-block: 1rem; */
 }
 
 h1,
