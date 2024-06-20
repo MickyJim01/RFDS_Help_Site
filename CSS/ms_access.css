@@ -55,6 +55,10 @@ main {
     box-shadow: 2px 2px 4px var(--light), 0px -2px 4px var(--light);
 }
 
+.ms_contents li {
+    list-style: disc inside;
+}
+
 dl {
     /* indents the description list */
     margin-left: 2rem;
