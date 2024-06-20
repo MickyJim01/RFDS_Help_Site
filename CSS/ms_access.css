@@ -55,8 +55,15 @@ main {
     box-shadow: 2px 2px 4px var(--light), 0px -2px 4px var(--light);
 }
 
+/* Main Bookmark Styles */
 .ms_contents li {
     list-style: disc inside;
+}
+
+
+/* Sub Bookmark Styles */
+.sub_bookmarks {
+    font-size: 1.3rem;
 }
 
 .sub_bookmarks li {
