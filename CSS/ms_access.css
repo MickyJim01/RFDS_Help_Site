@@ -56,11 +56,11 @@ main {
 }
 
 .ms_contents li {
-    list-style: disc outside;
+    list-style: disc inside;
 }
 
 .sub_bookmarks li {
-    list-style-type: circle;
+    list-style: circle outside;
 }
 
 dl {
