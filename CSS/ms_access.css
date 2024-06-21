@@ -32,8 +32,10 @@ main {
     flex: 3;
     box-shadow: 0px 2px 4px var(--light), -2px -2px 4px var(--light);
     padding: 1rem;
-    & h2,
-    h3,
+    counter-reset: list;
+
+    & h3,
+    h4,
     p,
     dl {
         margin-block: 1rem;
@@ -55,11 +57,18 @@ main {
     box-shadow: 2px 2px 4px var(--light), 0px -2px 4px var(--light);
 }
 
+.ms_article h3 {
+    font-size: var(--fs-head);
+}
+
+.ms_article h4 {
+    font-size: var(--fs-lrg);
+}
+
 /* Main Bookmark Styles */
 .ms_contents li {
     list-style: disc inside;
 }
-
 
 /* Sub Bookmark Styles */
 .sub_bookmarks {
@@ -75,31 +84,40 @@ dl {
     margin-left: 2rem;
 }
 
-dt {
-    display: list-item;
-    list-style: disc outside;
-}
-
 dd {
     padding-inline: 1rem;
     font-weight: var(--fw-light);
     font-size: var(--fs-sml);
 }
+dt {
+    position: relative;
+}
+dl.counted dt::before {
+    counter-increment: list;
+    content: counter(list) ".";
+    position: absolute;
+    left: -1.5rem;
+    top: -4px;
+    font-size: 1.3rem;
+    font-weight: var(--fw-semibold);
+    color: var(--accent-orange);
+}
 
+/* || BLOCKQUOTE STYLES */
 blockquote {
     /* creates a blockquote */
     position: relative;
     background-color: var(--blue);
     color: var(--light);
-    padding: 1em;
-    padding-left: 4rem;
+    padding: 0.5em;
+    padding-left: 3rem;
     border-left: 3px solid var(--dark);
-    border-radius: 5px 5px 5px 5px;
+    border-radius: 5px;
     box-shadow: 2px 2px 2px var(--dark);
     width: 90%;
-    min-height: 4rem;
+    min-height: 2em;
     margin-inline: auto;
-    margin-block: 1rem;
+    margin-block: 0.5rem;
 }
 
 blockquote::before {
@@ -107,9 +125,9 @@ blockquote::before {
     content: "";
     position: absolute;
     left: 0.5rem;
-    top: 0.5rem;
-    height: 3rem;
-    width: 3rem;
+    top: 0.5em;
+    height: 2rem;
+    width: 2rem;
 }
 
 blockquote.info::before {
@@ -136,9 +154,11 @@ span.hr {
 }
 
 #title {
-    font-size: var(--fs-head);
+    font-size: var(--fs-massive);
 }
 
 #subtitle {
-    font-size: var(--fs-lrg);
+    margin-block: 1rem;
+    font-size: var(--fs-head);
+    font-weight: var(--fw-light);
 }
