@@ -180,6 +180,7 @@ span.hr {
 #aldaExplanation {
     align-items: flex-start;
     margin: 1rem;
+    overflow: scroll;
     & li {
         flex: 1;
         padding: 1rem;
