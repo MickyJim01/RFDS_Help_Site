@@ -50,7 +50,8 @@ main {
     & h3,
     h4,
     p,
-    dl {
+    dl,
+    ul{
         margin-block: 1rem;
         margin-left: 5%;
     }
