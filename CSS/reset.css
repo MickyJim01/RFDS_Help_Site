@@ -20,7 +20,7 @@ main {
 
 p,
 dt,
-dd {
+dd, li {
     font-weight: var(--fw-reg);
     line-height: 1.6;
 }
