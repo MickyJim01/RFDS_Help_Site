@@ -22,6 +22,13 @@
     text-decoration: underline solid var(--accent-orange) 1px;
 }
 
+.sideBySide {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
 /* || STYLES */
 main {
     padding-right: 3rem;
