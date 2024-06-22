@@ -183,6 +183,6 @@ span.hr {
         flex: 1;
         margin-inline: 1rem;
         background-color: var(white);
-        box-shadow: 2px 2px 4px var(--light), 0px -2px 4px var(--light);
+        box-shadow: 3px 3px 4px var(--light), -3px -3px 4px var(--light);
     }
 }
