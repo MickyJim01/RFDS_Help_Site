@@ -178,9 +178,10 @@ span.hr {
 }
 
 #aldaExplanation {
+    align-items: flex-start;
     & li {
         flex: 1;
-        border: 2px solid black;
+        margin-inline: 1rem;
         background-color: var(white);
         box-shadow: 2px 2px 4px var(--light), 0px -2px 4px var(--light);
     }
