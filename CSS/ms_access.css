@@ -178,8 +178,6 @@ span.hr {
 }
 
 #aldaExplanation {
-    gap: 1rem;
-
     & li {
         flex: 1;
         border: 2px solid black;
