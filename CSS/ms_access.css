@@ -177,4 +177,11 @@ span.hr {
     font-weight: var(--fw-light);
 }
 
+#aldaExplanation {
+    gap: 1rem;
 
+    & li {
+        background-color: var(white);
+        box-shadow: 2px 2px 4px var(--light), 0px -2px 4px var(--light);
+    }
+}
