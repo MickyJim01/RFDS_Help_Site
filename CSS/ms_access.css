@@ -181,6 +181,7 @@ span.hr {
     gap: 1rem;
 
     & li {
+        flex: 1;
         background-color: var(white);
         box-shadow: 2px 2px 4px var(--light), 0px -2px 4px var(--light);
     }
