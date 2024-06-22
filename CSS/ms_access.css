@@ -18,6 +18,10 @@
     border: 2px solid black;
 }
 
+.underline {
+    text-decoration: underline solid var(--accent-orange) 1px;
+}
+
 /* || STYLES */
 main {
     padding-right: 3rem;
@@ -162,3 +166,5 @@ span.hr {
     font-size: var(--fs-head);
     font-weight: var(--fw-light);
 }
+
+
