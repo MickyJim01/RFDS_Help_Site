@@ -28,8 +28,8 @@ a.link_svg {
 a.link_svg::after {
     position: relative;
     content: ' ';
-    top: -0.2em;
-    right: -0.7em;
+    bottom: 0;
+    right: -1em;
     background-image: url(../media/svg/link-thick.svg);
     height: 1em;
     width: 1em;
