@@ -22,6 +22,10 @@
     text-decoration: underline solid var(--accent-orange) 1px;
 }
 
+.link_svg {
+    
+}
+
 .sideBySide {
     display: flex;
     flex-direction: row;
