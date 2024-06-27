@@ -28,9 +28,9 @@ a.link_svg {
 a.link_svg::after {
     position: absolute;
     content: ' ';
-    top: 0;
+    bottom: 0;
     right: -20px;
-    background-image: url(../media/svg/link-svgrepo-com.svg);
+    background-image: url(../media/svg/link-thick.svg);
     height: 1em;
     width: 1em;
 }
