@@ -23,8 +23,10 @@
 }
 
 .link_svg::after {
-    content: url(../media/svg/link-svgrepo-com.svg);
-    height: 1rem;
+    content: ' ';
+    background-image: url(../media/svg/link-svgrepo-com.svg);
+    height: 1em;
+    width: 1em;
 }
 
 .sideBySide {
