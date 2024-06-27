@@ -22,8 +22,14 @@
     text-decoration: underline solid var(--accent-orange) 1px;
 }
 
-.link_svg::after {
+a.link_svg {
+    position: relative;
+}
+a.link_svg::after {
+    position: absolute;
     content: ' ';
+    top: 0;
+    right: 0;
     background-image: url(../media/svg/link-svgrepo-com.svg);
     height: 1em;
     width: 1em;
