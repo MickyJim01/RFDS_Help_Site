@@ -15,7 +15,7 @@ body {
 }
 
 nav {
-    position: sticky;
+    position: fixed;
     top: 0;
 }
 
