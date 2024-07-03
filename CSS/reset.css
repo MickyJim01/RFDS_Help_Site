@@ -11,6 +11,7 @@
 body {
     background-color: var(--white);
     color: var(--dark);
+    position: relative;
 }
 
 main {

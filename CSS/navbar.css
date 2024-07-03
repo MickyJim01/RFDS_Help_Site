@@ -5,6 +5,7 @@
 /* Navbar styling */
 ul.navbar {
     display: flex;
+    position: static;
     justify-content: space-around;
     align-items: center;
     margin: 0;
