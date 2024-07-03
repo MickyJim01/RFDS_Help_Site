@@ -16,7 +16,7 @@ body {
 
 nav {
     position: sticky;
-    top: 100vh;
+    bottom: 100vh;
 }
 
 main {
