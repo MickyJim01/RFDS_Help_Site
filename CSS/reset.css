@@ -14,6 +14,10 @@ body {
     position: relative;
 }
 
+nav {
+    position: sticky;
+}
+
 main {
     padding-inline: 20rem;
     padding-block: 3rem;
