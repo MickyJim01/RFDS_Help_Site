@@ -43,6 +43,15 @@ a.link_svg::after {
     overflow: hidden;
 }
 
+span.hr {
+    /* Horizontal Rule */
+    display: block;
+    border: 1px solid var(--light-grey);
+    width: 90%;
+    margin-inline: auto;
+    margin-block: 1rem;
+}
+
 /* || STYLES */
 main {
     padding-right: 3rem;
@@ -165,14 +174,7 @@ blockquote.warning::before {
     content: url(../media/svg/warning.svg);
 }
 
-span.hr {
-    /* Horizontal Rule */
-    display: block;
-    border: 1px solid var(--light-grey);
-    width: 90%;
-    margin-inline: auto;
-    margin-block: 1rem;
-}
+
 
 /* || HOVERSTYLES */
 .bookmark a:hover,
