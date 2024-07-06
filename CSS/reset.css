@@ -12,6 +12,7 @@ body {
     background-color: var(--white);
     color: var(--dark);
     position: relative;
+    overflow: scroll;
 }
 
 nav {
