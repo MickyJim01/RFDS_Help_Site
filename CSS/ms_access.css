@@ -101,6 +101,12 @@ main {
     font-size: var(--fs-lrg);
 }
 
+.ms_article h5 {
+    font-family: 'Inter', sans-serif;
+    font-weight: var(--fw-semibold);
+    font-size: 1.2rem;
+}
+
 /* Main Bookmark Styles */
 .ms_contents li {
     list-style: disc inside;
