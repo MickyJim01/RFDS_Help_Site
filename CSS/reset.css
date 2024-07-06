@@ -18,7 +18,6 @@ body {
 nav {
     position: sticky;
     bottom: 100vh;
-    overflow: scroll;
 }
 
 main {
