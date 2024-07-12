@@ -212,14 +212,20 @@ blockquote.warning::before {
 }
 
 
-@media only screen and (max-width: 1620px) {
+@media only screen and (max-width: 1600px) {
     main {
         padding-left: 20rem;
     }
 }
 
-@media only screen and (max-width: 1320px) {
+@media only screen and (max-width: 1400px) {
     main {
         padding-left: 10rem;
+    }
+}
+
+@media only sceen and (max-width: 1000px) {
+    main{
+        padding-left: 3rem;
     }
 }
