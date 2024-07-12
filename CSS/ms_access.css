@@ -210,3 +210,16 @@ blockquote.warning::before {
         box-shadow: 3px 3px 4px var(--light), -3px -3px 4px var(--light);
     }
 }
+
+
+@media only screen and (max-width: 1620px) {
+    main {
+        padding-left: 20rem;
+    }
+}
+
+@media only screen and (max-width: 1320px) {
+    main {
+        padding-left: 10rem;
+    }
+}
