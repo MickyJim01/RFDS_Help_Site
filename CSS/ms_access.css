@@ -214,7 +214,7 @@ blockquote.warning::before {
 }
 
 #blue_arrow {
-    transform: rotateX('90');
+    transform: rotate(90deg);
 }
 
 
