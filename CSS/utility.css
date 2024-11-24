@@ -1,0 +1,54 @@
+@import url(./declarations.module.css);
+
+/* || UTILITY */
+.indent {
+    /* indents the text in the element */
+    padding-left: 2rem;
+}
+
+.centre {
+    /* centres text */
+    text-align: center;
+}
+
+.centre_img {
+    /* centres an image */
+    display: block;
+    margin: auto;
+    border: 2px solid black;
+    max-height: 400px;
+}
+
+.underline {
+    text-decoration: underline solid var(--accent-orange) 1px;
+}
+
+a.link_svg {
+    position: relative;
+}
+a.link_svg::after {
+    position: absolute;
+    content: ' ';
+    top: 0;
+    right: -20px;
+    background-image: url(../media/svg/link-thick.svg);
+    height: 1em;
+    width: 1em;
+}
+
+.sideBySide {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+span.hr {
+    /* Horizontal Rule */
+    display: block;
+    border: 1px solid var(--light-grey);
+    width: 90%;
+    margin-inline: auto;
+    margin-block: 1rem;
+}
