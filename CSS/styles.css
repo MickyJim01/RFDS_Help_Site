@@ -70,9 +70,9 @@ div.card {
     } */
 }
 
-div.card:hover {
+/* div.card:hover {
     cursor: pointer;
-}
+} */
 
 /* Setting the cards into their grid positions */
 #card-1 {
