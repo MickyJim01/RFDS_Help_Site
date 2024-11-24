@@ -108,7 +108,7 @@ div.drop_content {
     width: calc(100% - 30px);
     margin-left: 15px;
     translate: 0 -2px;
-    z-index: 10;
+    z-index: 3;
     box-shadow: var(--shadow);
     background-color: var(--white);
     color: var(--dark);
