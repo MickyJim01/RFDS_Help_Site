@@ -39,7 +39,9 @@ div.card {
 
     /* Style the heading in the card */
     a {
-        position: relative;
+        position: absolute;
+        top: 0;
+        bottom: 0;
         
         h3 {
             position: relative;
