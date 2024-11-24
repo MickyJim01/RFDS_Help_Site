@@ -87,6 +87,16 @@ div.card:hover {
     grid-row: 2;
 }
 
+#card-5 {
+    grid-column: 1;
+    grid-row: 3;
+}
+
+#card-6 {
+    grid-column: 2;
+    grid-row: 3;
+}
+
 #screenshot {
     align-self: center;
 }
