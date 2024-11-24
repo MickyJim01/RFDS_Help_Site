@@ -35,24 +35,29 @@ div.card {
     border-radius: 10px;
     box-shadow: var(--shadow);
     transition: 0.1s;
+    position: relative;
 
     /* Style the heading in the card */
-    h3 {
-        position: static;
-        font-size: var(--fs-lrg);
-        margin-bottom: 0.5rem;
-        width: fit-content;
+    a {
+        position: absolute;
+        
+        h3 {
+            position: relative;
+            font-size: var(--fs-lrg);
+            margin-bottom: 0.5rem;
+            width: fit-content;
 
-        /* Styling the line that comes in on hover */
-        &::after {
-            content: "";
-            position: absolute;
-            bottom: 0;
-            left: 0;
-            height: 2px;
-            width: 0%;
-            background: var(--accent-orange);
-            transition: width 0.2s;
+            /* Styling the line that comes in on hover */
+            &::after {
+                content: "";
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                height: 2px;
+                width: 0%;
+                background: var(--accent-orange);
+                transition: width 0.2s;
+            }
         }
     }
 
