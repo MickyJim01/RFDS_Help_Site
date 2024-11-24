@@ -54,12 +54,20 @@ div.card {
             background: var(--accent-orange);
             transition: width 0.2s;
         }
+
+        &:hover {
+            cursor: pointer;
+
+            &::after {
+                width: 100%;
+            }
+        }
     }
 
     /* Style actions on hover */
-    &:hover h3::after {
+    /* &:hover h3::after {
         width: 100%;
-    }
+    } */
 }
 
 div.card:hover {
