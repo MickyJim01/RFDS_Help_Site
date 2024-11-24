@@ -3,7 +3,7 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: "Inter", sans-serif;
+    font-family: "Mailtree", sans-serif;
     box-sizing: border-box;
     color: var(--dark);
 }
@@ -38,7 +38,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: Georgia, "Times New Roman", Times, serif;
+    font-family: "Poppins", "Inter", Times, sans-serif;
     color: var(--dark);
 }
 
