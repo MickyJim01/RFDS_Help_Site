@@ -42,7 +42,8 @@ div.card {
         position: absolute;
         top: 0;
         bottom: 0;
-        
+        padding: 1rem;
+
         h3 {
             position: relative;
             font-size: var(--fs-lrg);
