@@ -38,29 +38,21 @@ div.card {
     position: relative;
 
     /* Style the heading in the card */
-    a {
-        position: absolute;
-        top: 0;
-        bottom: 0;
-        padding: 1rem;
-
-        h3 {
-            position: relative;
-            font-size: var(--fs-lrg);
-            margin-bottom: 0.5rem;
-            width: fit-content;
-
-            /* Styling the line that comes in on hover */
-            &::after {
-                content: "";
-                position: absolute;
-                bottom: 0;
-                left: 0;
-                height: 2px;
-                width: 0%;
-                background: var(--accent-orange);
-                transition: width 0.2s;
-            }
+    > h3 {
+        position: relative;
+        font-size: var(--fs-lrg);
+        margin-bottom: 0.5rem;
+        width: fit-content;
+        /* Styling the line that comes in on hover */
+        &::after {
+            content: "";
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            height: 2px;
+            width: 0%;
+            background: var(--accent-orange);
+            transition: width 0.2s;
         }
     }
 
