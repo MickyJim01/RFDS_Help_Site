@@ -38,7 +38,7 @@ div.card {
 
     /* Style the heading in the card */
     > h3 {
-        position: relative;
+        position: static;
         font-size: var(--fs-lrg);
         margin-bottom: 0.5rem;
         width: fit-content;
