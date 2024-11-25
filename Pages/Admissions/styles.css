@@ -26,5 +26,5 @@ section.content {
 
 li::marker {
     color: var(--accent-orange);
-    font-size: var(--fw-bold);
+    font-weight: var(--fw-bold);
 }
