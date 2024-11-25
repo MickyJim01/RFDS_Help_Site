@@ -25,5 +25,5 @@ section.content {
 }
 
 li::marker {
-    color: var(--dark-grey);
+    color: var(--accent-orange);
 }
