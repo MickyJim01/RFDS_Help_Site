@@ -1,5 +1,10 @@
 @import url(./declarations.module.css);
 
+li {
+    list-style: none;
+}
+
+
 /* || UTILITY */
 .indent {
     /* indents the text in the element */
