@@ -1,7 +1,5 @@
-ol,
-li,
-dd,
-dt,
-li {
-    all: initial;
+
+.list {
+    all: revert;
+    list-style-type: decimal;
 }
