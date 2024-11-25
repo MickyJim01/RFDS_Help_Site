@@ -12,3 +12,10 @@
         list-style-type: disc;
     }
 }
+
+.circList {
+
+    * {
+        list-style-type: circle;
+    }
+}
