@@ -1,1 +1,7 @@
-
+ol,
+li,
+dd,
+dt,
+li {
+    all: initial;
+}
