@@ -1,4 +1,14 @@
 
-.list * {
-    list-style-type: decimal;
+.numList {
+    
+    * {
+        list-style-type: decimal;
+    }
+}
+
+.dotList {
+
+    * {
+        list-style-type: disc;
+    }
 }
