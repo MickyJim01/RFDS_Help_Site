@@ -42,3 +42,8 @@ li::marker {
     color: var(--accent-orange);
     font-weight: var(--fw-bold);
 }
+
+iframe {
+    height: 600px;
+    width: 900px;
+}
