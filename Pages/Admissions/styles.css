@@ -20,6 +20,13 @@
     }
 }
 
+
+.romList {
+
+    * {
+        list-style-type:lower-roman;
+    }
+}
 section.content {
     padding-inline: 10%;
     margin-block-end: 2rem;
