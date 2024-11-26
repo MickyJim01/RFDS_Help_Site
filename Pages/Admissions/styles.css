@@ -20,11 +20,17 @@
     }
 }
 
-
 .romList {
 
     * {
         list-style-type:lower-roman;
+    }
+}
+
+.letList {
+
+    * {
+        list-style-type: lower-alpha;
     }
 }
 section.content {
