@@ -60,12 +60,12 @@ blockquote {
     background-color: var(--blue);
     color: var(--light);
     padding: 0.5em;
-    padding-left: 3rem;
+    /* padding-left: 3rem; */
     border-left: 3px solid var(--dark);
     border-radius: 5px;
     box-shadow: 2px 2px 2px var(--dark);
     width: 90%;
-    min-height: 2em;
+    min-height: 2rem;
     margin-inline: auto;
     margin-block: 0.5rem;
 }
