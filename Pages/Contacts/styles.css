@@ -42,7 +42,7 @@ ul {
 ul li {
     margin: 10px 0;
     padding: 5px 0;
-    border-bottom: 1px dotted #aaa;
+    border-bottom: 1px dotted var(--accent-orange);
     display: flex;
     justify-content: space-between;
 }
