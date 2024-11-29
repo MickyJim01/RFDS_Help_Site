@@ -1,9 +1,9 @@
-/* General styles */
+/* General styles
 body {
     line-height: 1.6;
     margin: 20px;
     text-align: center;
-}
+} */
 
 /* Container for centering */
 .container {
@@ -71,9 +71,9 @@ p {
     font-style: italic;
 }
 
-body {
+/* body {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-}
+} */
