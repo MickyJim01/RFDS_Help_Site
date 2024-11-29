@@ -1,79 +1,39 @@
-/* General styles
-body {
-    line-height: 1.6;
-    margin: 20px;
-    text-align: center;
-} */
-
-/* Container for centering */
 .container {
-    max-width: 800px;
     margin: 0 auto;
-    text-align: left;
-}
-
-/* Heading styles */
-h1 {
-    font-size: 24px;
-    font-weight: bold;
-    margin-bottom: 20px;
+    max-width: 800px;
     text-align: center;
-    text-transform: uppercase;
 }
 
-h2 {
-    font-size: 18px;
-    font-weight: bold;
-    margin-top: 20px;
-    margin-bottom: 10px;
-    text-transform: capitalize;
-    border-bottom: 1px solid #ccc;
-    padding-bottom: 5px;
-}
-
-/* List styles */
-ul {
-    list-style-type: none;
-    padding-left: 0;
-}
-
-ul li {
-    margin: 10px 0;
-    padding: 5px 0;
-    border-bottom: 1px dotted var(--accent-orange);
+.container ul li {
     display: flex;
-    justify-content: space-between;
+    align-items: center;
+    gap: 10px; /* Add space between elements */
+    margin-inline: 15%;
 }
 
-ul li:last-child {
-    border-bottom: none;
-}
-
-/* List item alignment for name and contact */
-ul li span {
-    display: inline-block;
-    width: 45%;
-}
-
-ul li span.name {
-    text-align: left;
+ul li .name {
     font-weight: bold;
+    flex: 0 0 auto; /* Content takes up only as much space as it needs */
+    text-align: left;
 }
 
-ul li span.contact {
+ul li .line {
+    flex: 1; /* Stretch the line to fill the remaining space */
+    border-bottom: 2px dotted var(--dark-grey); /* Create the dotted line */
+    height: 0; /* Ensure the line itself has no height */
+}
+
+ul li .contact {
+    font-style: italic;
+    flex: 0 0 auto; /* Content takes up only as much space as it needs */
     text-align: right;
 }
 
-/* Additional information paragraph styles */
-p {
-    font-size: 14px;
-    margin-top: 20px;
-    font-style: italic;
+h2 {
+    border-bottom: 3px solid var(--accent-orange);
+    width: 75%;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
 }
-
-/* body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-} */

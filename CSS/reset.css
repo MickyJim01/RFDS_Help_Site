@@ -27,7 +27,8 @@ main {
 
 p,
 dt,
-dd, li {
+dd,
+li {
     font-weight: var(--fw-reg);
     line-height: 1.6;
 }
@@ -55,4 +56,16 @@ a {
 
 li {
     list-style: none;
+}
+
+@media only screen and (max-width: 1600px) {
+    main {
+        padding-inline: 10rem;
+    }
+}
+
+@media only screen and (max-width: 1300px) {
+    main {
+        padding-inline: 5rem;
+    }
 }
