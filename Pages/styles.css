@@ -1,4 +1,5 @@
 
+/* LIST STYLES */
 .numList {
     
     * {
@@ -33,22 +34,37 @@
         list-style-type: lower-alpha;
     }
 }
-section.content {
-    padding-inline: 10%;
-    margin-block-end: 2rem;
-}
 
 li::marker {
     color: var(--accent-orange);
     font-weight: var(--fw-bold);
 }
 
+
 iframe {
     width: 800px;
     height: 800px;
 }
 
+section.content {
+    padding-inline: 10%;
+    margin-block-end: 2rem;
+}
+
 .bookmark {
     text-decoration: underline;
     color: var(--dark-grey);
+}
+
+main {
+    position: relative;
+}
+
+.TOC {
+    display: block;
+    position: sticky;
+    top: 20px;
+    right: 20px;
+    width: 100px;
+    border: 2px solid pink;
 }
