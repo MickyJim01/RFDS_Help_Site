@@ -68,6 +68,11 @@ div.card {
 #welcome {
     text-align: center;
     font-size: var(--fs-massive);
+    color: var(--rfds-blue);
+}
+
+#orange {
+    color: var(--rfds-orange);
 }
 
 /* Setting the cards into their grid positions */
