@@ -63,16 +63,12 @@ div.card {
             }
         }
     }
-
-    /* Style actions on hover */
-    /* &:hover h3::after {
-        width: 100%;
-    } */
 }
 
-/* div.card:hover {
-    cursor: pointer;
-} */
+#welcome {
+    text-align: center;
+    font-size: var(--fs-massive);
+}
 
 /* Setting the cards into their grid positions */
 #card-1 {
