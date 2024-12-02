@@ -68,6 +68,8 @@ div.card {
 .big {
     text-align: center;
     font-size: var(--fs-massive);
+    width: auto;
+    margin-block: 0.5rem;
 }
 
 #hl1{
