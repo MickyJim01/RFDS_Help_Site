@@ -69,17 +69,17 @@ div.card {
     text-align: center;
     font-size: var(--fs-massive);
     width: auto;
-    margin-block: 0.5rem;
+    margin-block: 0.1rem;
 }
 
 #hl1{
     color: var(--rfds-dark-blue);
-    border-bottom: 3px solid var(--rfds-light-blue);
+    border-bottom: 4px solid var(--rfds-light-blue);
 }
 
 #hl2{
     color: var(--rfds-light-blue);
-    border-top: 4px solid var(--rfds-orange);
+    border-top: 8px solid var(--rfds-orange);
 }
 
 #hl3 {
