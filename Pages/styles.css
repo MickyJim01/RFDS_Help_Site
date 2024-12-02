@@ -53,6 +53,7 @@ main {
     position: relative;
 }
 
+/* TABLE OF CONTENTS */
 .TOC {
     position: fixed;
     top: 20%;
@@ -88,9 +89,10 @@ main {
 
             &:hover {
                 translate: 1px -1px;
+                text-decoration: underline var(--dark-grey);
             }
 
-            &::before {
+            /* &::before {
                 content: "";
                 opacity: 0%;
                 left: -1.1rem;
@@ -108,7 +110,7 @@ main {
                 left: -1rem;
                 top: 0.5rem;
                 opacity: 100%;
-            }
+            } */
         }
     }
 }
