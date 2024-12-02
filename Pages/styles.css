@@ -89,7 +89,7 @@ main {
 
             &:hover {
                 translate: 1px -1px;
-                text-decoration: underline var(--dark-grey);
+                text-decoration: underline 2px var(--dark-grey);
             }
 
             /* &::before {
