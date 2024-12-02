@@ -1,115 +1,192 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1.0"
+        />
+        <title>RFDS ADMIN DASHBOARD HELP SITE</title>
+        <link rel="stylesheet" href="./CSS/reset.css" />
+        <link rel="stylesheet" href="./CSS/navbar.css" />
+        <link rel="stylesheet" href="./styles.css" />
+        <!-- Favicon -->
+        <link rel="icon" type="image/x-icon" href="./favicon.svg" />
+        <script defer src="./JS/script.js"></script>
+    </head>
 
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>RFDS ADMIN DASHBOARD HELP SITE</title>
-    <link rel="stylesheet" href="./CSS/reset.css">
-    <link rel="stylesheet" href="./CSS/navbar.css">
-    <link rel="stylesheet" href="./styles.css">
-    <!-- Favicon -->
-    <link rel="icon" type="image/x-icon" href="./favicon.svg">
-    <script defer src="./JS/script.js"></script>
-  </head>
-
-  <body>
-    <nav>
-      <ul class="navbar">
-        <img src="./media/images/logo.png" class="logo" alt="Royal Flying Doctor Service Logo">
-        <li class="link">
-          <!-- Nav Item 1 -->
-          <a href="./index.html">Home</a>
-        </li>
-        <span class="nav_divider"></span>
-        <li class="link"> 
-          <!-- Nav Item 2 -->
-          <a href="#">Admissions</a>
-          <!-- Drop Down Content -->
-          <div class="drop_content">
-            <ul>
-              <li><a href="./Pages/zzz_deprecated/MS_Access/ms_access.html">Microsoft Access</a></li>
-              <li><a href="#">Retail Express</a></li>
-              <li><a href="#">Distributor Tickets</a></li> 
-              <li><a href="#">Opening</a></li>
-              <li><a href="#">Closing</a></li>
+    <body>
+        <nav>
+            <ul class="navbar">
+                <img
+                    src="./media/images/logo.png"
+                    class="logo"
+                    alt="Royal Flying Doctor Service Logo"
+                />
+                <li class="link">
+                    <!-- Nav Item 1 -->
+                    <a href="./index.html">Home</a>
+                </li>
+                <span class="nav_divider"></span>
+                <li class="link">
+                    <!-- Nav Item 2 -->
+                    <a href="#">Admissions</a>
+                    <!-- Drop Down Content -->
+                    <div class="drop_content">
+                        <ul>
+                            <li>
+                                <a
+                                    href="./Pages/zzz_deprecated/MS_Access/ms_access.html"
+                                    >Microsoft Access</a
+                                >
+                            </li>
+                            <li><a href="#">Retail Express</a></li>
+                            <li>
+                                <a href="#">Distributor Tickets</a>
+                            </li>
+                            <li><a href="#">Opening</a></li>
+                            <li><a href="#">Closing</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <span class="nav_divider"></span>
+                <li class="link">
+                    <!-- Nav Item 3 -->
+                    <a
+                        href="./Pages/Retail_Express/Retail_Express.html"
+                        >Retail</a
+                    >
+                    <!-- Drop Down Content -->
+                    <div class="drop_content">
+                        <ul>
+                            <li><a href="#">Cupboard Storage</a></li>
+                            <li><a href="#">Opening</a></li>
+                            <li><a href="#">Closing</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <span class="nav_divider"></span>
+                <li class="link">
+                    <!-- Nav Item 4 -->
+                    <a href="#">Staff Information</a>
+                    <div class="drop_content">
+                        <ul>
+                            <li>
+                                <a href="#">Policies & Procedures</a>
+                            </li>
+                            <li>
+                                <a href="#"
+                                    >General Information & Forms</a
+                                >
+                            </li>
+                            <li><a href="#">Rosters</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <img
+                    src="./media/images/bod lOGO.png"
+                    alt="Bombing of Darwin Logo"
+                    class="logo"
+                />
             </ul>
-          </div>
-        </li>
-        <span class="nav_divider"></span>
-        <li class="link"> 
-          <!-- Nav Item 3 -->
-          <a href="./Pages/Retail_Express/Retail_Express.html">Retail</a>
-          <!-- Drop Down Content -->
-          <div class="drop_content">
-            <ul>
-              <li><a href="#">Cupboard Storage</a></li>
-              <li><a href="#">Opening</a></li>
-              <li><a href="#">Closing</a></li>
-            </ul>
-          </div>
-        </li>
-        <span class="nav_divider"></span>
-        <li class="link">
-          <!-- Nav Item 4 -->
-          <a href="#">Staff Information</a>
-          <div class="drop_content">
-            <ul>
-              <li><a href="#">Policies & Procedures</a></li>
-              <li><a href="#">General Information & Forms</a></li>
-              <li><a href="#">Rosters</a></li>
-            </ul>
-          </div>
-        </li>
-        <img src="./media/images/bod lOGO.png" alt="Bombing of Darwin Logo" class="logo">
-      </ul>
-    </nav>
-    <main>
-      <section class="intro">
-      <h1 id="welcome">Royal Flying Doctor Service <br> Darwin Tourist Facility</h1>
-      <h1 id="orange">Information and Procedures</h1>
-        <p>This is a webpage containing all information, processes, and procedures related to day to day activity at the RFDS Darwin Tourist Facility. </br></p>
-      </section>
-      <!-- INDEX CARDS -->
-      <section class="cards-container">
-        
-        <div class="card" id="card-1">
-            <h3><a href="./Pages/Admissions/index.html">Admission Procedures</a></h3>
-            <p>All procedures relating to admission duties. Opening & Closing, Ticket Sales, Territorian Passes, Reporting, Etc.</p>
-        </div>
-        
-        <div class="card" id="card-2">
-            <h3><a href="./Pages/Retail/index.html">Retail Procedures</a></h3>
-            <p>All procedures relating to retail duties. Opening and Closing, Sales, Restocking, Etc.</p>
-        </div>
-        <div class="card" id="card-3">
-            <h3><a href="./Pages/General/index.html">General Facility Information</a></h3>
-            <p>Procedures and information that all staff should know and be familiar with.</p>
-        </div>
-        <div class="card" id="card-4">
-            <h3><a href="./Pages/Higher Duties/index.html">Higher Duties</a></h3>
-            <p>Information and procedures that Higher Duties staff must know and be able to do.</p>
-        </div>
-        <div class="card" id="card-5">
-            <h3><a href="./Pages/Emergencies/index.html">Emergencies</a></h3>
-            <p>Emergency procedures and information.</p>
-        </div>
-        <div class="card" id="card-6">
-            <h3><a href="./Pages/Contacts/index.html">Contacts</a></h3>
-            <p>Contact numbers for all staff and important third parties.</p>
-        </div>
-      </section>
-    </main>
-    <footer>
-      <ul class="footer">
-        <li class="logos"><img src="./media/images/BB_logo.png" alt=""></li>
-        <li class="logos"><img src="./media/images/CC_logo.png" alt=""></li>
-        <li class="logos"><img src="./media/images/DAM_logo.png" alt=""></li>
-        <li class="logos"><img src="./media/images/DHC_logo.png" alt=""></li>
-        <li class="logos"><img src="./media/images/SeaD_logo.png" alt=""></li>
-      </ul>
+        </nav>
+        <main>
+            <section class="intro">
+                <h1 class="big" id="hl1">
+                    Royal Flying Doctor Service
+                </h1>
+                <h1 class="big" id="hl2">Darwin Tourist Facility</h1>
+                <h1 class="big" id="hl3">
+                    Information and Procedures
+                </h1>
+            </section>
+            <!-- INDEX CARDS -->
+            <section class="cards-container">
+                <div class="card" id="card-1">
+                    <h3>
+                        <a href="./Pages/Admissions/index.html"
+                            >Admission Procedures</a
+                        >
+                    </h3>
+                    <p>
+                        All procedures relating to admission duties.
+                        Opening & Closing, Ticket Sales, Territorian
+                        Passes, Reporting, Etc.
+                    </p>
+                </div>
 
-    </footer>
-  </body>
-
+                <div class="card" id="card-2">
+                    <h3>
+                        <a href="./Pages/Retail/index.html"
+                            >Retail Procedures</a
+                        >
+                    </h3>
+                    <p>
+                        All procedures relating to retail duties.
+                        Opening and Closing, Sales, Restocking, Etc.
+                    </p>
+                </div>
+                <div class="card" id="card-3">
+                    <h3>
+                        <a href="./Pages/General/index.html"
+                            >General Facility Information</a
+                        >
+                    </h3>
+                    <p>
+                        Procedures and information that all staff
+                        should know and be familiar with.
+                    </p>
+                </div>
+                <div class="card" id="card-4">
+                    <h3>
+                        <a href="./Pages/Higher Duties/index.html"
+                            >Higher Duties</a
+                        >
+                    </h3>
+                    <p>
+                        Information and procedures that Higher Duties
+                        staff must know and be able to do.
+                    </p>
+                </div>
+                <div class="card" id="card-5">
+                    <h3>
+                        <a href="./Pages/Emergencies/index.html"
+                            >Emergencies</a
+                        >
+                    </h3>
+                    <p>Emergency procedures and information.</p>
+                </div>
+                <div class="card" id="card-6">
+                    <h3>
+                        <a href="./Pages/Contacts/index.html"
+                            >Contacts</a
+                        >
+                    </h3>
+                    <p>
+                        Contact numbers for all staff and important
+                        third parties.
+                    </p>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <ul class="footer">
+                <li class="logos">
+                    <img src="./media/images/BB_logo.png" alt="" />
+                </li>
+                <li class="logos">
+                    <img src="./media/images/CC_logo.png" alt="" />
+                </li>
+                <li class="logos">
+                    <img src="./media/images/DAM_logo.png" alt="" />
+                </li>
+                <li class="logos">
+                    <img src="./media/images/DHC_logo.png" alt="" />
+                </li>
+                <li class="logos">
+                    <img src="./media/images/SeaD_logo.png" alt="" />
+                </li>
+            </ul>
+        </footer>
+    </body>
 </html>

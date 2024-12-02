@@ -65,13 +65,22 @@ div.card {
     }
 }
 
-#welcome {
+.big {
     text-align: center;
     font-size: var(--fs-massive);
-    color: var(--rfds-blue);
 }
 
-#orange {
+#hl1{
+    color: var(--rfds-dark-blue);
+    border-bottom: 3px solid var(--rfds-light-blue);
+}
+
+#hl2{
+    color: var(--rfds-light-blue);
+    border-top: 4px solid var(--rfds-orange);
+}
+
+#hl3 {
     color: var(--rfds-orange);
 }
 
