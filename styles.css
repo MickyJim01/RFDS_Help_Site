@@ -68,7 +68,7 @@ div.card {
 .big {
     text-align: center;
     font-size: var(--fs-massive);
-    width: auto;
+    width: min-content;
     margin-block: 0.1rem;
 }
 
