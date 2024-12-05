@@ -60,13 +60,15 @@ table#shiftTable, th, td {
 table#shiftTable {
     border-collapse: collapse;
     width: 50%;
+    margin-block: auto;
 
     th {
-        height: 2rem;
+        font-size: var(--fs-lrg);
     }
 
     th, td {
-        padding: 20px;
+        padding: 10px;
+        text-align: center;
     }
 }
 
