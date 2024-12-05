@@ -53,16 +53,23 @@ main {
     position: relative;
 }
 
-table#shiftTable {
-    width: 50%;
+table#shiftTable, th, td {
     border: 1px solid var(--rfds-dark-blue);
-    border-collapse: collapse;
-    & tr, td {
-        border: 1px solid var(--rfds-dark-blue);
+}
 
-        
+table#shiftTable {
+    border-collapse: collapse;
+    width: 50%;
+
+    &th {
+        height: 2rem;
+    }
+
+    &th, td {
+        padding: 1rem;
     }
 }
+
 
 
 

@@ -93,4 +93,6 @@ blockquote.filePath {
     background-color: var(--dark-grey);
     color: var(--dark);
     font-style: italic;
+    height: 2rem;
+    width: 2rem;
 }
