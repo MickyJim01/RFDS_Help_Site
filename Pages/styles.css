@@ -61,11 +61,11 @@ table#shiftTable {
     border-collapse: collapse;
     width: 50%;
 
-    &th {
+    th {
         height: 2rem;
     }
 
-    &th, td {
+    th, td {
         padding: 1rem;
     }
 }
