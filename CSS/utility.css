@@ -89,6 +89,6 @@ blockquote.warning::before {
 }
 
 blockquote.filePath {
-    content: url(../media/svg/directory.svg);
+    content: url(../media/svg/Directory.svg);
 
 }
