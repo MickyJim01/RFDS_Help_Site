@@ -53,6 +53,12 @@ main {
     position: relative;
 }
 
+#shiftTable {
+    border: 1px solid var(--rfds-dark-blue);
+    column-width: auto;
+    width: 50%;
+}
+
 
 
 @media only screen and (min-width: 1600px) {
