@@ -87,3 +87,10 @@ blockquote.info::before {
 blockquote.warning::before {
     content: url(../media/svg/warning.svg);
 }
+
+blockquote.filePath {
+    content: url(../media/svg/directory.svg);
+    background-color: var(--dark-grey);
+    color: var(--dark);
+    font-style: italic;
+}
