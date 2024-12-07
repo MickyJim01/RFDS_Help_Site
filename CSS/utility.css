@@ -90,5 +90,8 @@ blockquote.warning::before {
 
 blockquote.path {
     background-color: var(--light-grey);
-    content: url(../media/svg/computer.svg);
+
+    &::before{
+        content: url(../media/svg/computer.svg);
+    }
 }
