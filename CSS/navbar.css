@@ -165,12 +165,17 @@ div.drop_content ul li:last-of-type a {
 }
 
 footer {
-    /* display: flex;
-    flex-direction: column; */
     background-color: var(--dark);
 
     & * {
         color: var(--light);
+    }
+
+    & p {
+        display: block;
+        width: 100%;
+        border: 2px solid pink;
+        text-align: center;
     }
 }
 
