@@ -53,6 +53,8 @@ main {
     position: relative;
 }
 
+
+/* TABLE STYLES */
 table.rfdsTable, th, td {
     border: 1px solid var(--rfds-dark-blue);
 }
@@ -71,6 +73,7 @@ table.rfdsTable {
     th, td {
         padding: 10px;
         text-align: center;
+        width: 100%;
     }
 }
 

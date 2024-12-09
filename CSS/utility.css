@@ -2,17 +2,14 @@
 
 /* || UTILITY */
 .indent {
-    /* indents the text in the element */
     padding-left: 2rem;
 }
 
 .centre {
-    /* centres text */
     text-align: center;
 }
 
 .centre_img {
-    /* centres an image */
     display: block;
     margin: auto;
     border: 2px solid black;
