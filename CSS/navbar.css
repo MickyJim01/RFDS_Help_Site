@@ -169,7 +169,7 @@ footer {
     flex-direction: column; */
     background-color: var(--dark);
 
-    & p {
+    & * {
         color: var(--light);
     }
 }
