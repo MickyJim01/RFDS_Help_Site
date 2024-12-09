@@ -58,6 +58,8 @@ table.rfdsTable, th, td {
 }
 
 table.rfdsTable {
+    display: block;
+    margin: auto;
     border-collapse: collapse;
     width: 50%;
     margin-block: auto;
