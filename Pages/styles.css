@@ -53,11 +53,11 @@ main {
     position: relative;
 }
 
-table#shiftTable, th, td {
+table.rfdsTable, th, td {
     border: 1px solid var(--rfds-dark-blue);
 }
 
-table#shiftTable {
+table.rfdsTable {
     border-collapse: collapse;
     width: 50%;
     margin-block: auto;
@@ -73,10 +73,10 @@ table#shiftTable {
     }
 }
 
-tr:nth-child(odd){
+table.rfdsTable tr:nth-child(odd){
     background-color: var(--light-grey);
 }
-tr:nth-child(even) {
+table.rfdsTable tr:nth-child(even) {
     background-color: var(--dark-grey);
 }
 
