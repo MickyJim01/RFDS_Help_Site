@@ -165,16 +165,14 @@ div.drop_content ul li:last-of-type a {
 }
 
 footer {
-    display: flex;
-    flex-direction: column;
+    /* display: flex;
+    flex-direction: column; */
     background-color: var(--dark);
     color: var(--light);
     align-items: center;
 }
 
 .footer_logos {
-    background-color: var(--dark);
-    color: var(--light);
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
