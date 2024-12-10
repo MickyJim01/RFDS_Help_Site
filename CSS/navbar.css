@@ -171,16 +171,16 @@ footer {
         color: var(--light);
     }
 
-    & p {
-        /* display: block;
-        width: 100%; */
+    /* & p {
+        display: block;
+        width: 100%;
         text-align: center;
-    }
+    } */
 }
 
 .footer_logos {
     display: flex;
-    flex-direction: row;
+    /* flex-direction: row; */
     justify-content: space-evenly;
     align-items: center;
     padding: 2rem;
