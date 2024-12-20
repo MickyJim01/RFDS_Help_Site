@@ -84,10 +84,8 @@ table.rfdsTable tr:nth-child(even) {
     background-color: var(--dark-grey);
 }
 
-@media only screen and (max-width: 1599px) {
-    .TOC {
-        display: none;
-    }
+.TOC {
+    display: none;
 }
 
 
