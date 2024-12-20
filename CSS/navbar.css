@@ -167,5 +167,5 @@ div.drop_content ul li:last-of-type a {
 footer {
     background-color: var(--dark);
     color: var(--light);
-    height: 300px;
+    height: 50px;
 }
