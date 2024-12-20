@@ -84,10 +84,6 @@ table.rfdsTable tr:nth-child(even) {
     background-color: var(--dark-grey);
 }
 
-.TOC {
-    display: none;
-}
-
 
 @media only screen and (min-width: 1600px) {
     /* TABLE OF CONTENTS */
@@ -150,6 +146,13 @@ table.rfdsTable tr:nth-child(even) {
                 } */
             }
         }
+    }
+
+}
+
+@media only screen and (max-width: 1599px) {
+    .TOC {
+        display: none;
     }
 }
 
